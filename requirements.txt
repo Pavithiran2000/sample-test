@@ -1,0 +1,24 @@
+# FastAPI and server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# AI/ML services
+google-generativeai==0.3.0
+
+# Authentication and security
+PyJWT[crypto]==2.8.0
+cryptography==44.0.1
+
+# Environment and configuration
+python-dotenv==1.0.0
+
+# HTTP requests
+requests==2.32.4
+
+# Development and testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+
+# Data validation
+pydantic==2.5.0
