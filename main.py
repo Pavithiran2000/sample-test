@@ -22,12 +22,14 @@ app.add_middleware(
 app.include_router(schedule_router)
 
 if __name__ == "__main__":
+    print("")
     print("🧪 Testing imports...")
     print("🧪 Testing imports...")
     import uvicorn
     print("✅ All imports successful")
     print("🚀 Starting server...")
     print("Hi")
+    print("")
     uvicorn.run(app, host=settings.HOST, port=settings.PORT)
 
     
