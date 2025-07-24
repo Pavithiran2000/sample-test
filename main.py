@@ -27,4 +27,7 @@ if __name__ == "__main__":
     import uvicorn
     print("✅ All imports successful")
     print("🚀 Starting server...")
+    print("Hi")
     uvicorn.run(app, host=settings.HOST, port=settings.PORT)
+
+    
