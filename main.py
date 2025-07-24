@@ -8,7 +8,9 @@ app = FastAPI(
     description="AI Payment Schedule Generator for CPD System",
     version="1.0.0"
 )
-
+print(
+    ""
+)
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
@@ -27,9 +29,11 @@ if __name__ == "__main__":
     print("🧪 Testing imports...")
     import uvicorn
     print("✅ All imports successful")
+    print("")
     print("🚀 Starting server...")
     print("Hi")
     print("")
+    print("sdjbjkhbskdj")
     uvicorn.run(app, host=settings.HOST, port=settings.PORT)
 
     
