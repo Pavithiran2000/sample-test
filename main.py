@@ -23,7 +23,11 @@ app.include_router(schedule_router)
 
 if __name__ == "__main__":
     print("🧪 Testing imports...")
+    print("🧪 Testing imports...")
     import uvicorn
     print("✅ All imports successful")
     print("🚀 Starting server...")
+    print("Hi")
     uvicorn.run(app, host=settings.HOST, port=settings.PORT)
+
+    
